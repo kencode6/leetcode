@@ -1,0 +1,19 @@
+name: "62. Unique Paths"
+cases:
+  - name: "case1"
+    inputs:
+      - 3
+      - 7
+    expected: 28
+
+  - name: "case2"
+    inputs:
+      - 3
+      - 2
+    expected: 3
+
+  - name: "case3"
+    inputs:
+      - 23
+      - 12
+    expected: 193536720

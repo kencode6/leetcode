@@ -1,0 +1,19 @@
+name: "6. ZigZag Conversion"
+cases:
+  - name: "case1"
+    inputs:
+      - "PAYPALISHIRING"
+      - 3
+    expected: "PAHNAPLSIIGYIR"
+
+  - name: "case2"
+    inputs:
+      - "PAYPALISHIRING"
+      - 4
+    expected: "PINALSIGYAHRPI"
+
+  - name: "case3"
+    inputs:
+      - "A"
+      - 1
+    expected: "A"

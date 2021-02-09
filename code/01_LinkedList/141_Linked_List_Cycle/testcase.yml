@@ -1,0 +1,19 @@
+name: "141. Linked List Cycle"
+cases:
+  - name: "case1"
+    inputs:
+      - [3, 2, 0, -4]
+      - 1
+    expected: true
+
+  - name: "case2"
+    inputs:
+      - [1, 2]
+      - 0
+    expected: true
+
+  - name: "case3"
+    inputs:
+      - [1]
+      - -1
+    expected: false

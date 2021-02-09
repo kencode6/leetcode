@@ -1,0 +1,11 @@
+name: "98. Validate Binary Search Tree"
+cases:
+  - name: "case1"
+    inputs:
+      - p*: [2,1,3]
+    expected: true
+
+  - name: "case2"
+    inputs:
+      - p*: [5,1,4,null,null,3,6]
+    expected: false

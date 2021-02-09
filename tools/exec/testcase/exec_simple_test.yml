@@ -1,0 +1,16 @@
+name: "Simple Test (exec sumNums)"
+cases:
+  - name: "case1"
+    inputs:
+      - [1,2,3]
+    expected: 6
+
+  - name: "case2"
+    inputs:
+      - [-1,-3,-5]
+    expected: -9
+
+  - name: "case3"
+    inputs:
+      - []
+    expected: 0

@@ -1,0 +1,21 @@
+name: "104. Maximum Depth of Binary Tree"
+cases:
+  - name: "case1"
+    inputs:
+      - p*: [3,9,20,null,null,15,7]
+    expected: 3
+
+  - name: "case2"
+    inputs:
+      - p*: [1,null,2]
+    expected: 2
+
+  - name: "case3"
+    inputs:
+      - p*: []
+    expected: 0
+
+  - name: "case4"
+    inputs:
+      - p*: [0]
+    expected: 1

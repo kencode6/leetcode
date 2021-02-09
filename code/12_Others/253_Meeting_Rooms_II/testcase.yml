@@ -1,0 +1,16 @@
+name: "253. Meeting Rooms II"
+cases:
+  - name: "case1"
+    inputs:
+      - [[0,30],[5,10],[15,20]]
+    expected: 2
+
+  - name: "case2"
+    inputs:
+      - [[7,10],[2,4]]
+    expected: 1
+
+  - name: "case3"
+    inputs:
+      - [[1,5],[1,2],[3,4],[5,6],[5,5]]
+    expected: 2

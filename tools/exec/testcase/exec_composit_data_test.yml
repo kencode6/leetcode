@@ -1,0 +1,21 @@
+name: "Composit Data Test (exec groupingCharIndex)"
+cases:
+  - name: "case1"
+    inputs:
+      - "aabcc"
+    expected: {"a":[1,2],"b":[3],"c":[4,5]}
+
+  - name: "case2"
+    inputs:
+      - "dagfjgdashjakdhasjhf"
+    expected: {"a":[2,8,12,16],"d":[1,7,14],"f":[4,20],"g":[3,6],"h":[10,15,19],"j":[5,11,18],"k":[13],"s":[9,17]}
+
+  - name: "case3"
+    inputs:
+      - "あいあううええいおい"
+    expected: {"あ":[1,3],"い":[2,8,10],"う":[4,5],"え":[6,7],"お":[9]}
+
+  - name: "case4"
+    inputs:
+      - ""
+    expected: {}

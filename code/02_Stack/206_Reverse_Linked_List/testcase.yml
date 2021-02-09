@@ -1,0 +1,16 @@
+name: "206. Reverse Linked List"
+cases:
+  - name: "case1"
+    inputs:
+      - [1, 2, 3, 4, 5]
+    expected: [5, 4, 3, 2, 1]
+
+  - name: "case2"
+    inputs:
+      - [0]
+    expected: [0]
+
+  - name: "case3"
+    inputs:
+      - []
+    expected: []

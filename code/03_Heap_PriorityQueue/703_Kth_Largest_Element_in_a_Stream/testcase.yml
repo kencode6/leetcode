@@ -1,0 +1,16 @@
+name: "703. Kth Largest Element in a Stream"
+cases:
+  - name: "case1"
+    inputs:
+      - ["KthLargest", "add", "add", "add", "add", "add"]
+      - [[[3], [4, 5, 8, 2]], [[3]], [[5]], [[10]], [[9]], [[4]]]
+    expected: 
+      p*: [null, 4, 5, 5, 8, 8]
+
+  - name: "case2"
+    inputs:
+      - ["KthLargest", "add", "add", "KthLargest", "add", "add"]
+      - [[[3], [4, 5, 8, 2]], [[3]], [[5]], [[3], [4, 5, 8, 2]], [[9]], [[4]]]
+    expected: 
+      p*: [null, 4, 5, null, 5, 5]
+

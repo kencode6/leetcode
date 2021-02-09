@@ -1,0 +1,19 @@
+name: "2. Add Two Numbers"
+cases:
+  - name: "case1"
+    inputs:
+      - [2, 4, 3]
+      - [5, 6, 4]
+    expected: [7, 0, 8]
+
+  - name: "case2"
+    inputs:
+      - [0]
+      - [0]
+    expected: [0]
+
+  - name: "case3"
+    inputs:
+      - [9, 9, 9, 9, 9, 9, 9]
+      - [9, 9, 9, 9]
+    expected: [8, 9, 9, 9, 0, 0, 0, 1]

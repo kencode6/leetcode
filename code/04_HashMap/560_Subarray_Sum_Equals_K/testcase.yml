@@ -1,0 +1,19 @@
+name: "560. Subarray Sum Equals K"
+cases:
+  - name: "case1"
+    inputs:
+      - [1,1,1]
+      - 2
+    expected: 2
+
+  - name: "case2"
+    inputs:
+      - [1,2,3]
+      - 3
+    expected: 2
+
+  - name: "case3"
+    inputs:
+      - [1,-1,0]
+      - 0
+    expected: 3

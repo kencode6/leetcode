@@ -1,0 +1,31 @@
+name: "139. Word Break"
+cases:
+  - name: "case1"
+    inputs:
+      - "leetcode"
+      - ["leet", "code"]
+    expected: true
+
+  - name: "case2"
+    inputs:
+      - "applepenapple"
+      - ["apple", "pen"]
+    expected: true
+
+  - name: "case3"
+    inputs:
+      - "catsandog"
+      - ["cats", "dog", "sand", "and", "cat"]
+    expected: false
+
+  - name: "case4"
+    inputs:
+      - "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+      - ["a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"]
+    expected: false
+
+  - name: "case5"
+    inputs:
+      - "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+      - ["a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa", "aaab"]
+    expected: true

@@ -1,0 +1,19 @@
+name: "112. Path Sum"
+cases:
+  - name: "case1"
+    inputs:
+      - p*: [5,4,8,11,null,13,4,7,2,null,null,null,1]
+      - 22
+    expected: true
+
+  - name: "case2"
+    inputs:
+      - p*: [1,2,3]
+      - 5
+    expected: false
+
+  - name: "case3"
+    inputs:
+      - p*: [1,2]
+      - 0
+    expected: false

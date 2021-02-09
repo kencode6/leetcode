@@ -1,0 +1,15 @@
+name: "776. Split BST"
+cases:
+  - name: "case1"
+    inputs:
+      - p*: [4,2,6,1,3,5,7]
+      - 2
+    expected: 
+      p*: [[2,1],[4,3,6,null,null,5,7]]
+
+  - name: "case2"
+    inputs:
+      - p*: [4,2,6,1,3,5,7]
+      - 5
+    expected: 
+      p*: [[4,2,5,1,3],[6,null,7]]

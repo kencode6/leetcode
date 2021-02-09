@@ -1,0 +1,13 @@
+name: "392. Is Subsequence"
+cases:
+  - name: "case1"
+    inputs:
+      - "abc"
+      - "ahbgdc"
+    expected: true
+
+  - name: "case2"
+    inputs:
+      - "axc"
+      - "ahbgdc"
+    expected: false

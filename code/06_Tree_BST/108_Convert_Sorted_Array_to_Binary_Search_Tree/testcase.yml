@@ -1,0 +1,13 @@
+name: "108. Convert Sorted Array to Binary Search Tree"
+cases:
+  - name: "case1"
+    inputs:
+      - [-10,-3,0,5,9]
+    expected: 
+      p*: [0,-10,5,null,-3,null,9]
+
+  - name: "case2"
+    inputs:
+      - [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    expected: 
+      p*: [10,5,15,2,7,12,18,1,3,6,8,11,13,16,19,null,null,null,4,null,null,null,9,null,null,null,14,null,17,null,20]

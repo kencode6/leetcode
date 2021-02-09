@@ -1,0 +1,15 @@
+name: "127. Word Ladder"
+cases:
+  - name: "case1"
+    inputs:
+      - "hit"
+      - "cog"
+      - ["hot","dot","dog","lot","log","cog"]
+    expected: 5
+
+  - name: "case2"
+    inputs:
+      - "hit"
+      - "cog"
+      - ["hot","dot","dog","lot","log"]
+    expected: 0

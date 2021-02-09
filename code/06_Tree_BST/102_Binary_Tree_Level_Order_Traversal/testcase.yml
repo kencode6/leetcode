@@ -1,0 +1,6 @@
+name: "102. Binary Tree Level Order Traversal"
+cases:
+  - name: "case1"
+    inputs:
+      - p*: [3,9,20,null,null,15,7]
+    expected: [[3],[9,20],[15,7]]

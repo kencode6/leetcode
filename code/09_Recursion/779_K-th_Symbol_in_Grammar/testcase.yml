@@ -1,0 +1,25 @@
+name: "779. K-th Symbol in Grammar"
+cases:
+  - name: "case1"
+    inputs:
+      - 1
+      - 1
+    expected: 0
+
+  - name: "case2"
+    inputs:
+      - 2
+      - 1
+    expected: 0
+
+  - name: "case3"
+    inputs:
+      - 2
+      - 2
+    expected: 1
+
+  - name: "case4"
+    inputs:
+      - 4
+      - 5
+    expected: 1

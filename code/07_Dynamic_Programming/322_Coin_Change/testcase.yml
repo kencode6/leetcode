@@ -1,0 +1,19 @@
+name: "322. Coin Change"
+cases:
+  - name: "case1"
+    inputs:
+      - [1,2,5]
+      - 11
+    expected: 3
+
+  - name: "case2"
+    inputs:
+      - [2]
+      - 3
+    expected: -1
+
+  - name: "case3"
+    inputs:
+      - [186, 419, 83, 408]
+      - 6249
+    expected: 20

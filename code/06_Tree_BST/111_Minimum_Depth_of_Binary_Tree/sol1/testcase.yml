@@ -1,0 +1,11 @@
+name: "111. Minimum Depth of Binary Tree"
+cases:
+  - name: "case1"
+    inputs:
+      - p*: [3,9,20,null,null,15,7]
+    expected: 2
+
+  - name: "case2"
+    inputs:
+      - p*: [2,null,3,null,4,null,5,null,6]
+    expected: 5

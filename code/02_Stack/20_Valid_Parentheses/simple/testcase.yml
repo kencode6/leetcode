@@ -1,0 +1,27 @@
+name: "20. Valid Parentheses"
+cases:
+  - name: "case1"
+    inputs:
+      - "()"
+    expected: true
+
+  - name: "case2"
+    inputs:
+      - "()[]{}"
+    expected: true
+
+  - name: "case3"
+    inputs:
+      - "(]"
+    expected: false
+
+  - name: "case4"
+    inputs:
+      - "[()][({})]({[[]]})[]"
+    expected: true
+
+  - name: "case5"
+    inputs:
+      - "[()]{[({})](}{[[]]})[]"
+    expected: false
+

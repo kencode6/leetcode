@@ -1,0 +1,11 @@
+name: "82. Remove Duplicates from Sorted List II"
+cases:
+  - name: "case1"
+    inputs:
+      - [1, 2, 3, 3, 4, 4, 5]
+    expected: [1, 2, 5]
+
+  - name: "case2"
+    inputs:
+      - [1, 1, 1, 2, 3]
+    expected: [2, 3]

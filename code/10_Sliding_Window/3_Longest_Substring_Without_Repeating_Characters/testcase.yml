@@ -1,0 +1,16 @@
+name: "3. Longest Substring Without Repeating Characters"
+cases:
+  - name: "case1"
+    inputs:
+      - "abcabcbb"
+    expected: 3
+
+  - name: "case2"
+    inputs:
+      - "bbbbb"
+    expected: 1
+
+  - name: "case3"
+    inputs:
+      - "pwwkew"
+    expected: 3

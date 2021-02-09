@@ -1,0 +1,13 @@
+name: "347. Top K Frequent Elements"
+cases:
+  - name: "case1"
+    inputs:
+      - [1,1,1,2,2,3]
+      - 2
+    expected: [1,2]
+
+  - name: "case2"
+    inputs:
+      - [1]
+      - 1
+    expected: [1]

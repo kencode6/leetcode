@@ -1,0 +1,11 @@
+name: "121. Best Time to Buy and Sell Stock"
+cases:
+  - name: "case1"
+    inputs:
+      - [7,1,5,3,6,4]
+    expected: 7
+
+  - name: "case2"
+    inputs:
+      - [1,2,3,4,5]
+    expected: 4

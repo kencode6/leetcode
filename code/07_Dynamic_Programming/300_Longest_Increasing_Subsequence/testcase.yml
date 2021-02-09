@@ -1,0 +1,16 @@
+name: "300. Longest Increasing Subsequence"
+cases:
+  - name: "case1"
+    inputs:
+      - [10,9,2,5,3,7,101,18]
+    expected: 4
+
+  - name: "case2"
+    inputs:
+      - [0,1,0,3,2,3]
+    expected: 4
+
+  - name: "case3"
+    inputs:
+      - [7,7,7,7,7,7,7]
+    expected: 1

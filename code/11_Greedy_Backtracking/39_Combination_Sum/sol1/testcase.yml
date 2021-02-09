@@ -1,0 +1,31 @@
+name: "39. Combination Sum"
+cases:
+  - name: "case1"
+    inputs:
+      - [2,3,6,7]
+      - 7
+    expected: [[2,2,3],[7]]
+
+  - name: "case2"
+    inputs:
+      - [2,3,5]
+      - 8
+    expected: [[2,2,2,2],[2,3,3],[3,5]]
+
+  - name: "case3"
+    inputs:
+      - [2]
+      - 1
+    expected: []
+
+  - name: "case4"
+    inputs:
+      - [1]
+      - 1
+    expected: [[1]]
+
+  - name: "case5"
+    inputs:
+      - [1]
+      - 2
+    expected: [[1,1]]

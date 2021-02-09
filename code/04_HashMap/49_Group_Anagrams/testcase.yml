@@ -1,0 +1,21 @@
+name: "49. Group Anagrams"
+cases:
+  - name: "case1"
+    inputs:
+      - ["eat","tea","tan","ate","nat","bat"]
+    expected: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+  - name: "case2"
+    inputs:
+      - ["aab","ecec","xzx","aba","bab","deff","ffda","abb","ccee","xzz","zzx"]
+    expected: [["deff"],["ffda"],["xzx"],["aab","aba"],["abb","bab"],["ccee","ecec"],["xzz","zzx"]] 
+
+  - name: "case3"
+    inputs:
+      - [""]
+    expected: [[""]]
+
+  - name: "case4"
+    inputs:
+      - ["a"]
+    expected: [["a"]]

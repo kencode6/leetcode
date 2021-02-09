@@ -1,0 +1,13 @@
+name: "276. Paint Fence"
+cases:
+  - name: "case1"
+    inputs:
+      - 3
+      - 2
+    expected: 6
+
+  - name: "case2"
+    inputs:
+      - 5
+      - 6
+    expected: 7200

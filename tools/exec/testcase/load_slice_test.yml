@@ -1,0 +1,46 @@
+name: "LoadYaml Slice Test"
+cases:
+  - name: "case1"
+    inputs:
+      - 1
+      - "abc"
+      - true
+      - [1, 2, 3]
+      - p*: [1, 2, 3]
+      - p*: [null, 1, null, 3, null]
+      - [true, false, true]
+      - ["1", "2", "3"]
+      - p*: ["1", "2", "3"]
+      - p*: [null, "1", null, "3", null]
+    expected: 
+      p*: [1, 2, 3, null]
+
+  - name: "case2"
+    inputs:
+      - 1
+      - "abc"
+      - true
+      - []
+      - p*: []
+      - p*: []
+      - []
+      - []
+      - p*: []
+      - p*: []
+    expected: 
+      p*: []
+
+  - name: "case3"
+    inputs:
+      - 10
+      - "abc abc"
+      - false
+      - [1, 2, 3, 4, 5]
+      - p*: [1, 2, 3, 4, 5]
+      - p*: [null, 10, null, 30, null]
+      - [true, false, true, false]
+      - ["1", "2", "3", "4", "5"]
+      - p*: ["1", "2", "3", "4", "5"]
+      - p*: [null, "1", null, "3", null, "4", null]
+    expected: 
+      p*: [1, 2, 3, 4, 5, null]

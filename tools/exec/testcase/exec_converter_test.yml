@@ -1,0 +1,25 @@
+name: "Converter Test (exec multiLindedList)"
+cases:
+  - name: "case1"
+    inputs:
+      - [1, 2, 3]
+      - 2
+    expected: [2, 4, 6]
+
+  - name: "case2"
+    inputs:
+      - [10, 20, 30]
+      - 3
+    expected: [30, 60, 90]
+
+  - name: "case3"
+    inputs:
+      - [-10, -20, -30]
+      - 3
+    expected: [-30, -60, -90] 
+
+  - name: "case4"
+    inputs:
+      - []
+      - 10
+    expected: [] 

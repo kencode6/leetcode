@@ -1,0 +1,19 @@
+name: "50. Pow(x, n)"
+cases:
+  - name: "case1"
+    inputs:
+      - 2.00000
+      - 10
+    expected: 1024.00000
+
+  - name: "case2"
+    inputs:
+      - 2.10000
+      - 3
+    expected: 9.26100
+
+  - name: "case3"
+    inputs:
+      - 2.00000
+      - -2
+    expected: 0.25000

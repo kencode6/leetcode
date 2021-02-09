@@ -1,0 +1,39 @@
+name: "Multi Converter Test (exec multiLindedList)"
+# inputsで定義されたCycle ListNodeの接続位置と長さを取得
+cases:
+  - name: "case1" # 通常のcycle ListNodeの場合
+    inputs:
+      - [1, 2, 3, 4, 5]
+      - 2
+    expected: [2, 5] # [接続位置, 長さ]
+
+  - name: "case2" # 始点と終点がつながった円状の場合
+    inputs:
+      - [1, 2, 3, 4, 5]
+      - 0
+    expected: [0, 5]
+
+  - name: "case3" # cycleでないただのListNodeの場合
+    inputs:
+      - [1, 2, 3, 4, 5]
+      - -1
+    expected: [-1, 5]
+
+  - name: "case4" # 要素数1で繋がっている場合
+    inputs:
+      - [1]
+      - 0
+    expected: [0, 1]
+
+  - name: "case5" # 要素数1でcycleでないただのListNodeの場合
+    inputs:
+      - [1]
+      - -1
+    expected: [-1, 1]
+
+  - name: "case6" # 要素数0の場合
+    inputs:
+      - []
+      - -1
+    expected: [-1, 0]
+

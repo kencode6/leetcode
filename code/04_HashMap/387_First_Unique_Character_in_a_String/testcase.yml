@@ -1,0 +1,16 @@
+name: "387. First Unique Character in a String"
+cases:
+  - name: "case1"
+    inputs:
+      - "leetcode"
+    expected: 0
+
+  - name: "case2"
+    inputs:
+      - "loveleetcode"
+    expected: 2
+
+  - name: "case3"
+    inputs:
+      - "abcdeabcde"
+    expected: -1
