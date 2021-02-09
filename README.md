@@ -128,7 +128,7 @@ leetcodeサイト右下の「Run Code」を押下する事で実行可能です�
 
 まず go getでソースコードを取得します。  
 ```
-go get github.com/kencode6/leetcode
+go get -u github.com/kencode6/leetcode
 ```
 
 code内の各問題の名称となっているディレクトリに移動し、Goのテストコマンドを実行します。  
