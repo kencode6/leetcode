@@ -1,5 +1,7 @@
 package logic
 
+import "math"
+
 // 下記のleetcodeサイトにアクセスし、以下のコードを貼り付けて実行可能です。
 // https://leetcode.com/problems/unique-paths/
 
@@ -18,5 +20,5 @@ func uniquePaths(m int, n int) int {
 		sum *= float64(mulNum)
 		sum /= float64(divNum)
 	}
-	return int(sum)
+	return int(math.Round(sum))
 }
