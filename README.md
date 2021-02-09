@@ -2,7 +2,7 @@
 アルゴリズムトレーニング用サービスであるleetcodeの問題をGoで実施しました。
 
 ## 実施したコーディングの種類
-テーマ別に解答した問題を合計62問記載しています。
+テーマ別に解答した問題を合計62問記載しています。  
 各問題の解答したソースコードはcodeディレクトリ内の各logic.goに記述しています。  
 以下のリンクからleetcodeのサイトにアクセスして、  
 画面中央の言語選択プルダウンからGoを選択し、  
@@ -50,7 +50,8 @@ leetcodeサイト右下の「Run Code」を押下する事で実行可能です�
   - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
   - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
   - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
-  - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+  - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
   - [139. Word Break](https://leetcode.com/problems/word-break/)
   - [198. House Robber](https://leetcode.com/problems/house-robber/)
   - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
@@ -74,7 +75,7 @@ leetcodeサイト右下の「Run Code」を押下する事で実行可能です�
   - [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
   - [46. Permutations](https://leetcode.com/problems/permutations/)
   - [78. Subsets](https://leetcode.com/problems/subsets/)
-- Other
+- Others
   - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
   - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
   - [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
