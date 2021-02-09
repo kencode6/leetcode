@@ -75,7 +75,7 @@ leetcodeサイト右下の「Run Code」を押下する事で実行可能です�
   - [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
   - [46. Permutations](https://leetcode.com/problems/permutations/)
   - [78. Subsets](https://leetcode.com/problems/subsets/)
-- Other
+- Others
   - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
   - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
   - [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
